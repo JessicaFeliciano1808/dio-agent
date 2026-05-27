@@ -6,9 +6,9 @@ Para cada formato abaixo: o que é, como funciona e como o agente pode ajudar.
 
 ## Bootcamp
 
-**O que é:** uma jornada intensiva e completa sobre uma área ou tecnologia, geralmente patrocinada por uma empresa parceira. Reúne vários cursos, desafios e mentorias em uma trilha única, com início e fim definidos.
+**O que é:** uma experiência educacional gratuita e completa sobre uma área ou tecnologia, sempre patrocinada por uma empresa parceira da DIO. Todo mês novos bootcamps são lançados, o que demonstra o compromisso da DIO com a educação aberta e acessível.
 
-**Como funciona:** o estudante segue a trilha no ritmo proposto, acumula pontos ao concluir etapas e desafios, e pode receber certificado ao final. Bootcamps costumam ter ranking e uma comunidade ativa.
+**Como funciona:** o bootcamp reúne vários cursos, desafios e mentorias em uma trilha única, com início e fim definidos. O estudante segue a trilha no ritmo proposto, acumula pontos ao concluir etapas e desafios, e pode receber certificado ao final. Bootcamps costumam ter ranking e uma comunidade ativa.
 
 **Como o agente ajuda:**
 - Montar um plano para acompanhar o bootcamp sem atrasar (use a skill `study-plan`).
@@ -18,14 +18,25 @@ Para cada formato abaixo: o que é, como funciona e como o agente pode ajudar.
 
 ## Formação
 
-**O que é:** uma trilha estruturada de aprendizado sobre um tema ou papel profissional, por exemplo uma formação em uma linguagem ou em uma área de atuação. É mais focada e geralmente mais curta que um bootcamp.
+**O que é:** uma trilha estruturada de aprendizado, análoga a um bootcamp, mas pensada para quem quer acelerar o desenvolvimento profissional em um tema ou papel específico.
 
-**Como funciona:** reúne um conjunto de cursos e conteúdos em uma ordem pensada para levar o estudante do básico ao intermediário em um assunto.
+**Como funciona:** reúne um conjunto de cursos, desafios e conteúdos em uma ordem pensada para a evolução do estudante. As Formações estão disponíveis para assinantes DIO PRO e DIO Global (mais informações sobre os planos em https://www.dio.me/planos).
 
 **Como o agente ajuda:**
 - Explicar como a formação se encaixa no objetivo de carreira do estudante.
 - Sugerir o que revisar antes de começar, se houver pré-requisitos.
 - Apoiar no entendimento dos conceitos ao longo da trilha.
+
+## Aceleração
+
+**O que é:** uma imersão curta e ao vivo, como se fosse um mini-bootcamp síncrono. A Aceleração concentra o aprendizado sobre um tema específico em um único dia.
+
+**Como funciona:** acontece em uma data marcada, com sessões e workshops ao vivo. Geralmente as Acelerações são conduzidas em inglês, com exceções em algumas parcerias especiais.
+
+**Como o agente ajuda:**
+- Sugerir o que revisar antes da imersão, já que o conteúdo é concentrado em pouco tempo.
+- Ajudar a entender pontos do conteúdo, inclusive quando a sessão é em inglês.
+- Apoiar na consolidação do que foi visto depois do dia da imersão.
 
 ## Curso
 
@@ -37,11 +48,22 @@ Para cada formato abaixo: o que é, como funciona e como o agente pode ajudar.
 - Reforçar e explicar pontos do curso que ficaram confusos.
 - Sugerir como praticar o que foi aprendido, já que só assistir não fixa o conhecimento.
 
+## English4Tech
+
+**O que é:** o curso de inglês da DIO focado em cenários reais da tecnologia. Em vez de inglês genérico, o estudante aprende o vocabulário e as situações que aparecem no dia a dia de grandes empresas internacionais.
+
+**Como funciona:** o curso trabalha de forma eficiente os quatro elementos principais do idioma (listening, speaking, reading e writing), preparando o estudante para se destacar em entrevistas e na evolução de uma carreira internacional. O English4Tech é um benefício para assinantes DIO Global.
+
+**Como o agente ajuda:**
+- Explicar como o inglês se conecta ao objetivo de carreira do estudante.
+- Encaixar o English4Tech no plano de estudos, em paralelo às trilhas técnicas.
+- Reforçar termos técnicos em inglês que aparecem em outros conteúdos da DIO.
+
 ## Desafio de Código
 
-**O que é:** exercícios práticos e objetivos de programação, normalmente focados em lógica e em uma habilidade específica. A correção costuma ser automática.
+**O que é:** exercícios práticos de programação com foco em lógica e pensamento computacional.
 
-**Como funciona:** o estudante recebe um problema, escreve o código e submete. O sistema valida se a solução está correta.
+**Como funciona:** os desafios aplicam a ideia de Problem-Based Learning (aprendizagem baseada em problemas), com situações simples e próximas do dia a dia do estudante. Ele recebe um problema, escreve o código e submete. A correção costuma ser automática.
 
 **Como o agente ajuda:**
 - Conduzir o estudante até a solução com dicas graduais, sem entregar a resposta pronta (use a skill `unblock-challenge`).
@@ -49,9 +71,9 @@ Para cada formato abaixo: o que é, como funciona e como o agente pode ajudar.
 
 ## Desafio de Projeto
 
-**O que é:** um desafio prático em que o estudante constrói um projeto real, muitas vezes reproduzindo ou expandindo algo demonstrado em aula. O resultado costuma ir para um repositório no GitHub e vira parte do portfólio.
+**O que é:** um desafio prático focado na criação de portfólio. Muitas vezes ele consolida o conhecimento obtido em um módulo ou na totalidade de um Bootcamp ou Formação.
 
-**Como funciona:** o estudante recebe um objetivo e constrói a solução por conta própria, aplicando o que aprendeu.
+**Como funciona:** assim como o Desafio de Código, segue a ideia de Problem-Based Learning, então sempre traz o problema a ser resolvido de forma clara. O estudante constrói a solução e a entrega em um repositório no GitHub da própria conta dele, o que ajuda a montar um portfólio técnico rico dentro e fora da DIO. Na maioria dos casos, existe um repositório base, que o estudante pode usar como fork e cujas instruções específicas ele deve seguir.
 
 **Como o agente ajuda:**
 - Ajudar a entender o enunciado e quebrar o projeto em passos menores.
@@ -61,14 +83,14 @@ Para cada formato abaixo: o que é, como funciona e como o agente pode ajudar.
 
 ## Desafio Criativo
 
-**O que é:** um desafio mais aberto, em que o estudante aplica o que aprendeu de forma livre e criativa, sem um único caminho certo.
+**O que é:** um formato novo na plataforma da DIO, focado em engenharia de prompt, uso de IAs e pensamento criativo por meio de linguagem natural.
 
-**Como funciona:** o enunciado propõe um tema ou objetivo amplo e o estudante decide como resolver.
+**Como funciona:** o desafio traz passos bem definidos para o estudante construir o seu prompt final de forma gradual. Para concluir, basta compartilhar o link do resultado no formato indicado no próprio desafio (geralmente Google Drive, GitHub ou Notion).
 
 **Como o agente ajuda:**
-- Ajudar a transformar uma ideia vaga em um escopo possível de executar.
-- Estimular a criatividade com perguntas, sem impor uma solução.
-- Apoiar na execução técnica das escolhas que o estudante fizer.
+- Ajudar a entender cada passo do desafio sem fazer o trabalho criativo pelo estudante.
+- Dar retorno sobre a clareza e a estrutura do prompt que o estudante está construindo.
+- Explicar conceitos de engenharia de prompt que apareçam no caminho (use a skill `explain-concept`).
 
 ## Live e Mentoria
 
@@ -85,10 +107,12 @@ Para cada formato abaixo: o que é, como funciona e como o agente pode ajudar.
 
 | Experiência | Em uma frase |
 |-------------|--------------|
-| Bootcamp | Jornada intensiva e completa sobre uma área, com trilha, desafios e certificado. |
-| Formação | Trilha estruturada e focada sobre um tema ou papel profissional. |
+| Bootcamp | Jornada gratuita e completa sobre uma área, patrocinada por uma empresa parceira. |
+| Formação | Trilha estruturada para acelerar o desenvolvimento profissional (DIO PRO e Global). |
+| Aceleração | Imersão ao vivo de um dia sobre um tema específico. |
 | Curso | Conteúdo curto e direto sobre um assunto específico. |
-| Desafio de Código | Exercício objetivo de programação com correção automática. |
-| Desafio de Projeto | Construção de um projeto real para o portfólio. |
-| Desafio Criativo | Desafio aberto para aplicar o aprendizado de forma livre. |
+| English4Tech | Curso de inglês focado em cenários reais da tecnologia (DIO Global). |
+| Desafio de Código | Exercício de lógica e pensamento computacional via Problem-Based Learning. |
+| Desafio de Projeto | Construção de um projeto real no GitHub para o portfólio. |
+| Desafio Criativo | Desafio de engenharia de prompt e uso de IAs, com passos guiados. |
 | Live e Mentoria | Encontro ao vivo com especialistas e mentores. |

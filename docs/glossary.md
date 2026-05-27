@@ -12,9 +12,9 @@ O DIO Agent é um agente de IA voltado para ajudar você a aprender.
 
 ## Harness
 
-Um harness é o programa que dá "vida" a um agente. Ele é o ambiente onde o agente roda, conversa com você e consegue ler os arquivos do projeto. Exemplos: Claude Code, Antigravity e Hermes.
+Um harness é o programa que dá "vida" a um agente. Ele é o ambiente onde o agente roda, conversa com você e consegue ler os arquivos do projeto. Exemplos: Google Antigravity, Claude Code e Hermes.
 
-*Analogia:* se o agente é o motorista, o harness é o carro. Você precisa do carro para o motorista poder te levar a algum lugar.
+*Analogia:* o agente é o professor e o harness é a sala de aula. O mesmo professor pode dar aula em salas diferentes, e é por isso que o DIO Agent funciona em qualquer harness.
 
 Você escolhe um harness no Passo 1 do README.
 

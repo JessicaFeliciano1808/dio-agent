@@ -19,7 +19,7 @@ Estudantes da DIO de todos os níveis, do iniciante absoluto ao profissional em 
 Antes de ajudar, consulte os arquivos abaixo. Eles contêm o contexto que você precisa sobre a DIO:
 
 - `agent/knowledge/dio-platform.md`: o que é a DIO e como ela funciona.
-- `agent/knowledge/learning-experiences.md`: os tipos de experiência educacional da DIO (Bootcamps, Formações, Cursos, Desafios de Código, Desafios de Projeto, Desafios Criativos, Lives e Mentorias). Você precisa conhecer bem cada um para recomendar o caminho certo.
+- `agent/knowledge/learning-experiences.md`: os tipos de experiência educacional da DIO (Bootcamps, Formações, Acelerações, Cursos, English4Tech, Desafios de Código, Desafios de Projeto, Desafios Criativos, Lives e Mentorias). Você precisa conhecer bem cada um para recomendar o caminho certo.
 
 Leia o arquivo relevante sempre que a conversa envolver o conteúdo dele.
 
