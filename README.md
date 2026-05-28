@@ -42,6 +42,8 @@ O harness é o programa que dá vida ao agente. Recomendamos o **Google Antigrav
 |---------|----------------------|
 | Google Antigravity (recomendado) | https://antigravity.google/docs |
 | Claude Code | https://docs.claude.com/en/docs/claude-code |
+| Codex | https://developers.openai.com/codex |
+| OpenCode | https://opencode.ai/docs |
 | Hermes | https://hermes-agent.nousresearch.com/docs |
 
 Escolha um e siga o passo a passo da documentação oficial dele. Cada documentação já traz tudo certinho para o seu sistema, então a instalação é tranquila.
@@ -62,9 +64,9 @@ Na página do repositório no GitHub, clique no botão verde **Code** e depois e
 
 Com o repositório baixado, abra a pasta `dio-agent` no harness que você instalou. Cada harness tem o seu jeito de abrir uma pasta de projeto, e a documentação dele mostra como fazer isso.
 
-E é só isso. ✅ O harness lê automaticamente o arquivo `AGENTS.md` e o agente já sabe quem é: o seu mentor de estudos da DIO.
+E é só isso! O harness lê automaticamente o arquivo `AGENTS.md` e o agente já sabe quem é: o seu mentor de estudos da DIO.
 
-> 🔄 **Fique de olho nas atualizações.** Não importa se você usou o Git ou o .zip: o repositório do DIO Agent evolui com o tempo. De tempos em tempos, vale voltar aqui e pegar a versão mais recente. Quem usou Git pode rodar `git pull`; quem baixou o .zip pode baixar de novo. Assim o seu mentor está sempre com o melhor que a gente tem a oferecer.
+> 🔄 **Fique de olho nas atualizações.** Não importa se você usou o Git ou o .zip: o repositório do DIO Agent evolui com o tempo. De tempos em tempos, vale voltar aqui e pegar a versão mais recente. Quem usou Git pode rodar `git pull` (ou pedir pro próprio DIO Agent rodar); quem baixou o .zip pode baixar de novo. Assim o seu mentor está sempre com o melhor que a gente tem a oferecer.
 
 ### 3️⃣ Hands On!
 
@@ -73,9 +75,9 @@ Agora é só conversar. Você pode falar naturalmente, com as suas palavras. Mas
 **🗺️ Plano de estudos**
 
 ```
-Quero montar um plano de estudos.
-- Meu objetivo: [ex: ser dev back-end, concluir um bootcamp]
-- Experiência ou carreira da DIO: [ex: Bootcamp "AI Automation com N8N"]
+Quero montar um plano de estudos (se possível, com materiais complementares).
+- Meu objetivo: [ex: aprender mais sobre IA, ser dev back-end, concluir um bootcamp]
+- Experiência ou carreira da DIO: [URL ou nome do bootcamp/formação, ou de uma carreira da DIO]
 - Meu nível hoje: [iniciante, intermediário, avançado]
 - Tempo disponível: [ex: 1 hora por dia, de segunda a sexta]
 ```
@@ -99,7 +101,7 @@ Me explica o conceito de [ex: API, laço de repetição, herança].
 - Onde apareceu: [ex: no curso X de um bootcamp] (opcional)
 ```
 
-Não precisa de comando especial nem de formato perfeito. Pode até falar com as suas palavras se preferir: o agente conduz a conversa a partir daí e pede mais detalhes se precisar.
+Não precisa de comando especial nem de formato perfeito: o agente conduz a conversa a partir daí e pede mais detalhes se precisar.
 
 ---
 
@@ -121,27 +123,27 @@ Você não precisa "chamar" uma skill. O agente percebe o que você precisa e us
 
 ```
 dio-agent/
-├── README.md                  Este guia
-├── AGENTS.md                  Definição do agente (lida por qualquer harness)
-├── CLAUDE.md                  Atalho para o Claude Code
+├── README.md                        Este guia
+├── AGENTS.md                        Definição do agente (lida por qualquer harness)
+├── CLAUDE.md                        Atalho para o Claude Code
 │
 ├── agent/
-│   ├── persona.md             A personalidade e o tom do agente
+│   ├── persona.md                   A personalidade e o tom do agente
 │   └── knowledge/
 │       ├── dio-platform.md          O que é a DIO
 │       └── learning-experiences.md  Os formatos de aprendizado da DIO
 │
 ├── skills/
-│   ├── README.md              O que são skills
-│   ├── study-plan/            Skill: plano de estudos
-│   ├── unblock-challenge/     Skill: destravar desafio
-│   └── explain-concept/       Skill: explicar conceito
+│   ├── README.md                    O que são skills
+│   ├── study-plan/                  Skill: plano de estudos
+│   ├── unblock-challenge/           Skill: destravar desafio
+│   └── explain-concept/             Skill: explicar conceito
 │
 └── docs/
-    └── glossary.md            Glossário de termos
+    └── glossary.md                  Glossário de termos
 ```
 
-> 🔍 **Por que funciona em qualquer harness?** O coração do projeto é o arquivo `AGENTS.md`, um padrão aberto que harnesses modernos sabem ler. O `CLAUDE.md` apenas aponta para ele. Trocou de harness? O agente continua o mesmo.
+> 🔍 **Por que funciona em qualquer harness?** O coração do projeto é o arquivo `AGENTS.md`, um padrão aberto que harnesses modernos sabem ler. O `CLAUDE.md` apenas aponta para ele, então você pode usar o harness que preferir.
 
 ---
 
