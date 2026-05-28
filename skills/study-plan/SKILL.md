@@ -50,11 +50,13 @@ Faça isso antes de montar o cronograma. Nunca monte o plano só pelo nome da ex
 
    A Formação usa o prefixo `curso-` por uma questão de SEO, mas na prática é uma Formação completa. Repare que Bootcamp e Aceleração usam barra antes do slug (`/SLUG`), enquanto a Formação cola o slug direto no `curso-`.
 
-3. **Acesse a LP** e leia a lista de módulos e conteúdos. Anote também a carga horária total, se a página informar, porque ela vai definir a duração do plano.
+3. **Leia a LP diretamente.** Abra a página com a leitura nativa de páginas do harness, a mesma capacidade que ele usa para abrir qualquer link, e leia o conteúdo como uma pessoa faria. A lista de módulos já vem pronta no conteúdo da página, com o número de atividades de cada um. **Não escreva nem rode scripts para raspar a página.** Uma leitura direta resolve, é mais rápida e gasta menos tokens.
+
+> ℹ️ A contagem de "horas de conteúdo" costuma vir como `0` numa leitura direta, porque é um contador dinâmico da página. Não leve esse `0` ao pé da letra: se a carga horária não aparecer de forma confiável, use a quantidade de módulos e atividades para dimensionar o plano.
 
 **Se o tipo não estiver claro:** a URL `web.dio.me/track/SLUG` é igual para os três formatos, então ela sozinha não revela o tipo. Use as pistas da conversa (o estudante disse "bootcamp"?), teste os padrões de LP ou pergunte o tipo ao estudante.
 
-**Se não conseguir acessar a LP** (a página não abriu ou o harness está sem acesso à internet): pesquise por `site:dio.me {tipo} {nome da experiência}`. O operador `site:dio.me` limita a busca às páginas oficiais da DIO e evita resultados de terceiros. Se ainda assim não encontrar, **peça ao estudante** a lista de conteúdos da trilha (ele pode colar o texto ou enviar um print). Nunca invente os módulos a partir do nome da experiência.
+**Se não conseguir acessar a LP** (a página não abriu ou o harness está sem acesso à internet): pesquise por `site:dio.me {tipo} {nome da experiência}`. O operador `site:dio.me` limita a busca às páginas oficiais da DIO e evita resultados de terceiros. Se uma ou duas tentativas de leitura não resolverem, não insista nem parta para scripts: **peça ao estudante** a lista de conteúdos da trilha (ele pode colar o texto ou enviar um print). Nunca invente os módulos a partir do nome da experiência.
 
 ### 3. Monte o caminho
 
@@ -62,7 +64,7 @@ Com base nos módulos reais da trilha (ou da carreira escolhida) e no perfil do 
 
 ### 4. Distribua no tempo
 
-Defina a duração do plano a partir da carga horária da trilha. Quando a LP informar a carga horária total, divida-a pelo tempo de estudo semanal do estudante (as horas por dia multiplicadas pelos dias por semana). Por exemplo, uma trilha de 40 horas, com 10 horas por semana, leva cerca de 4 semanas. Se a LP não informar a carga horária, estime de forma conservadora e deixe claro que é uma estimativa.
+Defina a duração do plano a partir da carga horária da trilha. Quando a LP informar a carga horária total de forma confiável, divida-a pelo tempo de estudo semanal do estudante (as horas por dia multiplicadas pelos dias por semana). Por exemplo, uma trilha de 40 horas, com 10 horas por semana, leva cerca de 4 semanas. Se a carga horária não estiver disponível (lembre que o contador da página pode vir como `0`), estime a partir da quantidade de módulos e atividades, deixe claro que é uma estimativa e distribua os módulos ao longo das semanas.
 
 Distribua o conteúdo em um cronograma simples, por dias ou semanas, respeitando o tempo que o estudante informou. Pouco e constante é melhor do que muito e insustentável.
 
